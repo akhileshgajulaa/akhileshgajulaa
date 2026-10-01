@@ -12,7 +12,7 @@
 
 ### 🚀 About Me
 
-I'm a Cloud & DevOps Engineer in the making, transitioning from a 4-year background in MIS / Data Operations as a Research Associate (2022–2026). Alongside full-time work, I completed my B.Tech in Electrical & Electronics (2022–2025).
+I'm a Cloud & DevOps Engineer in the making, transitioning from a 4-year background in MIS Reporting as a Research Associate (2022–2026). Alongside full-time work, I completed my B.Tech in Electrical & Electronics (2022–2025).
 
 During my time in Data Operations, I developed a strong interest in infrastructure and automation — which led me into DevOps. Since then, I've built and deployed several production-style projects covering the full stack: containerized microservices, Kubernetes clusters, multi-environment CI/CD pipelines, and cloud infrastructure on AWS.
 
