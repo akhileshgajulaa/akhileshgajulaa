@@ -3,7 +3,7 @@
 
 <p align="center">
   <a href="https://linkedin.com/in/gajula-akhilesh-cloud-engineer"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"></a>
-  <a href="mailto:youremail@example.com"><img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white"></a>
+  <a href="mailto:akhilesh.gajula.it@gmail.com"><img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white"></a>
   <!-- Add your portfolio site link here -->
   <!-- <a href="https://yourportfolio.com"><img src="https://img.shields.io/badge/Portfolio-000000?style=for-the-badge&logo=vercel&logoColor=white"></a> -->
 </p>
@@ -12,13 +12,13 @@
 
 ### 🚀 About Me
 
-I'm a Cloud & DevOps Engineer in the making, transitioning from a 4-year background in MIS / Data Operations as a Research Associate (2022–Present). Alongside full-time work, I completed my B.Tech in Electrical & Electronics (2022–2025).
+I'm a Cloud & DevOps Engineer in the making, transitioning from a 4-year background in MIS / Data Operations as a Research Associate (2022–2026). Alongside full-time work, I completed my B.Tech in Electrical & Electronics (2022–2025).
 
 During my time in Data Operations, I developed a strong interest in infrastructure and automation — which led me into DevOps. Since then, I've built and deployed several production-style projects covering the full stack: containerized microservices, Kubernetes clusters, multi-environment CI/CD pipelines, and cloud infrastructure on AWS.
 
 Currently looking for opportunities as a **Cloud / DevOps Engineer** where I can apply this hands-on foundation.
 
-📄 [Resume](#) &nbsp;|&nbsp; [Portfolio Website](#) &nbsp;|&nbsp; [LinkedIn](https://linkedin.com/in/gajula-akhilesh-cloud-engineer)
+📄 [Resume](#) &nbsp;|&nbsp; [LinkedIn](https://linkedin.com/in/gajula-akhilesh-cloud-engineer)
 
 ---
 
@@ -41,39 +41,33 @@ Currently looking for opportunities as a **Cloud / DevOps Engineer** where I can
 
 ---
 
-### 📌 Featured Projects
+### 📌 Hands-on Projects
 
-**[Kubernetes 3-Tier Architecture](#)**
-Nginx → Flask → MySQL deployed on a self-managed kubeadm cluster on AWS EC2. Includes full deployment guide and architecture diagram.
-`Kubernetes` `Flask` `Nginx` `MySQL` `AWS EC2`
+**[Cloud-Native-E-Commerce-Deployment&CI/CD-on-AWS-EKS](https://github.com/akhileshgajulaa/Project-12-Cloud-Native-E-Commerce-Application-Deployment-CI-CD-on-AWS-EKS)**
+A 3-tier e-commerce app (React, Spring Boot, MySQL) deployed to Amazon EKS with Helm, with Terraform provisioning the AWS infrastructure.
+A GitHub Actions pipeline runs SonarQube and Trivy, pushes images to ECR, and deploys to EKS. Pods autoscale with HPA, and Prometheus and Grafana handle monitoring.
 
-**[Multi-Environment CI/CD Pipeline](#)**
-GitHub Actions pipeline deploying a Java Maven app to Apache Tomcat across DEV → TEST → PREPROD → PROD on AWS EC2, plus a single-environment variant.
-`GitHub Actions` `Java` `Maven` `Tomcat` `AWS EC2`
+**[Production-Style-3-Tier-Employee-Management-System-on-Amazon-EKS](https://github.com/akhileshgajulaa/Project-11-Production-Style-3-Tier-Employee-Management-System-on-Amazon-EKS)**
+A React, Spring Boot (JWT) and MySQL app deployed on EKS with hand-written Kubernetes manifests. The MySQL StatefulSet is backed by EBS, and an ALB Ingress routes / to the frontend and /api to the backend.
+It also uses HPA, PodDisruptionBudgets and NetworkPolicies for production-style resilience.
 
-**[E-Commerce Microservices Platform](#)**
-Three Spring Boot services behind Nginx, orchestrated with Docker Compose, with a full documentation suite.
-`Spring Boot` `Docker Compose` `Nginx` `Microservices`
+**[Docker Microservices Project](https://github.com/akhileshgajulaa/Project-9-Docker_Microservices_Project)**
+Three Spring Boot microservices (user, order, payment) run behind an Nginx reverse proxy. Multi-stage Docker builds and Docker Compose bring up the whole stack with one command.
+Nginx is the only public entry point, and the services talk to each other over a custom Docker network using DNS names.
 
-**[AWS 3-Tier High Availability Architecture](#)**
-VPC, EC2, ALB, RDS, and Auto Scaling — built via console and reproduced as Terraform IaC.
-`AWS` `Terraform` `VPC` `RDS` `Auto Scaling`
+**[Multi-Environment CI/CD with GitHub Actions](https://github.com/akhileshgajulaa/Project-8-CI-CD-Pipeline-with-GitHub-Actions-SonarQube-Nexus-Tomcat)**
+A GitHub Actions pipeline builds a Java/Maven WAR once and promotes the same artifact through DEV → TEST → PREPROD → PROD. Each environment is a Tomcat server on AWS EC2.
+Each stage depends on the previous one, so a failure stops the pipeline before PROD. Deployment uses the Tomcat Manager API with environment-scoped GitHub secrets.
 
-**[Serverless Employee Management App](#)**
-Amplify + API Gateway + Lambda + DynamoDB serverless application.
-`AWS Amplify` `Lambda` `API Gateway` `DynamoDB`
+**[Java Web App on AWS EC2 with Apache Tomcat](https://github.com/akhileshgajulaa/Project-6-Java-Web-Application-on-AWS-EC2-using-Apache-Tomcat-/tree/master/java-maven-tomcat-deployment)**
+A Java Maven web application deployed manually to an AWS EC2 instance running Apache Tomcat. It covers the basic EC2 setup, build, and WAR deployment workflow.
 
-> Replace the `#` links above with your actual repo URLs.
+**[Terraform 3-Tier Architecture](https://github.com/akhileshgajulaa/Project-5-Terraform_3_tire_Architecture/tree/master/three-tier-aws-terraform)**
+A three-tier AWS architecture (presentation, application and database layers) defined entirely as code with Terraform. It makes the infrastructure repeatable and version-controlled instead of console-built.
 
----
+**[AWS Highly Available Java Web App](https://github.com/akhileshgajulaa/Project-4_aws_highly_available_java_webapp/tree/master/aws-highly-available-java-webapp/aws-highly-available-java-webapp)**
+A Java web application deployed on AWS with a highly available design, most likely across multiple Availability Zones with load balancing and auto scaling. It shows how to avoid a single point of failure.
 
-### 📊 GitHub Stats
+**[Serverless Employee App (AWS Lambda)](https://github.com/akhileshgajulaa/Project-2-Lambda_serverless)**
+A serverless employee application built on AWS Lambda, so there are no servers to manage. It shows event-driven, pay-per-use architecture.
 
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=akhileshgajulaa&show_icons=true&theme=default&hide_border=true" height="165">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=akhileshgajulaa&theme=default&hide_border=true" height="165">
-</p>
-
----
-
-<p align="center"><i>Open to Cloud / DevOps Engineer opportunities — let's connect!</i></p>
